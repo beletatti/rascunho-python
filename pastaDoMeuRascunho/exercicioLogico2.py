@@ -26,3 +26,28 @@ else:
     print(f'{numero} Este numero e par ')
 
 #############################################################################################
+#2
+horario = input("Digite o horario: ")
+horario = int(horario)
+
+if horario >= 0 or horario <= 11:
+    print("Bom dia !!!")
+elif horario > 12 or horario <= 17:
+    print("Boa tarde !!!")
+else:
+    print("Boa noite !!")
+
+#############################################################################################
+#3
+nome = input("Digite seu nome: ")
+qtdLetraNoNome = len(nome)
+print(nome)
+
+if qtdLetraNoNome >= 0 or qtdLetraNoNome <= 4:
+    print("Seu nome e' curto !!")
+elif qtdLetraNoNome <= 6:
+    print("Seu nome e' medio !!")
+else:
+    print("Seu nome e' gramde !!")
+
+#############################################################################################
