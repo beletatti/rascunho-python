@@ -16,7 +16,7 @@ menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva
 numero = input("Digite um numero ")
 
 if not numero.isdigit():
-    print("Nao e numero inteiro")
+    print("Nao e numero")
 else:
     numero = int(numero)
 
@@ -48,6 +48,6 @@ if qtdLetraNoNome >= 0 or qtdLetraNoNome <= 4:
 elif qtdLetraNoNome <= 6:
     print("Seu nome e' medio !!")
 else:
-    print("Seu nome e' gramde !!")
+    print("Seu nome e' grande !!")
 
 #############################################################################################

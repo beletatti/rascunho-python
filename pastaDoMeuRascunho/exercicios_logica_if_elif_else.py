@@ -5,7 +5,7 @@ inteiro, informe que não é um número inteiro.
 """
 # numero_inteiro = input('Digite um número inteiro: ')
 #
-# if not numero_inteiro.isdigit():
+# iteiro.isdigit():
 #     print('Isso não é um número inteiro')
 # else:
 #     numero_inteiro = int(numero_inteiro)
